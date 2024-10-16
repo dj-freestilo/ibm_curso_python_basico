@@ -1,0 +1,56 @@
+* {color: gray}
+p[name="myStylo"] {
+    color: aquamarine
+}
+p[name^="mi"] {
+    color: blue
+}
+p[name*="Est"] {
+    color: red
+    }
+p[name$="ilo"] {
+    color: green
+}
+h1+p {color: yellow}
+
+body {background-color: rgba(255, 0, 0, 0.1)} /*Rojo con transparencia*/
+input {background-color: rgba(0, 255, 0, 0.3)} /*Verde con transparencia*/ 
+table {background-color: rgba(0, 0, 255, 0.3)} /*Azul con transparencia*/
+
+textarea {
+    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+}
+#Enviar {
+    background: linear-gradient(to left, #33ccff 0%, #ff99cc 100%);
+}
+
+/*
+Si se utilizan los cuatro estados a la vez hay que hacerlo en este orden, de lo contrario no funcionarán.
+(regla LoVe HAte). Es decir, Link => Visited => Hover => Active
+*/
+a:link{color:blue}
+a:visited{color:violet}
+a:hover{color:green}
+a:active{color:red}
+
+/* Longitudes absolutas (1in = 2.54cm = 96px = 72pt = 6pc) inch,cm,pixel,point,pica */
+p {
+    font-size: 20px;
+    line-height: 15px;
+    }
+/* 
+Longitudes relativas 
+Unidades    Descripción 
+em          Relativo al tamaño de fuente del elemento (2em significa 2 veces el tamaño de la fuente actual)
+ex          En relación con la altura x de la fuente actual (rara vez se usa)
+ch          Relativo al ancho del "0" (cero)
+rem         Relativo al tamaño de fuente del elemento raíz
+vw          Relativo al 1% del ancho de la ventana gráfica *
+vh          Relativo al 1% de la altura de la ventana gráfica *
+vmin        Relativo al 1% de la dimensión más pequeña de la ventana gráfica
+vmax        Relativo al 1% de la dimensión más grande de la ventana gráfica
+%           Relativo al elemento padre
+*/
+table {
+    width: 80%;
+}

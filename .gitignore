@@ -1,0 +1,111 @@
+# Sistema operativo
+########################
+# Archivos del sistema macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Archivos Thumbs.db (Windows)
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Archivos de iconos en Linux
+*.desktop
+
+# IDEs y Editores
+########################
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# JetBrains (IntelliJ IDEA, PyCharm, WebStorm)
+.idea/
+*.iml
+
+# Node.js y JavaScript
+########################
+# Dependencias instaladas por npm o yarn
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Python
+########################
+# Archivos compilados
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Entornos virtuales
+env/
+venv/
+ENV/
+VENV/
+
+# Archivos de Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Java
+########################
+*.class
+*.jar
+*.war
+*.ear
+*.log
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Gradle
+.gradle/
+build/
+
+# Logs generales
+########################
+*.log
+
+# Archivos temporales y de caché
+########################
+*.tmp
+*.swp
+*.bak
+*.swo
+*.swn
+
+# Otros
+########################
+# Archivos de configuración de sistema
+*.env
+.env.local
+.env.*.local
+
+# Archivos comprimidos
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Bases de datos SQLite
+*.sqlite3
+*.db
+
+# Docker
+########################
+/docker-compose.override.yml
+/.env
+
+# Otros tipos de backups
+########################
+*.bak
+*.backup
